@@ -9,6 +9,5 @@ json_input = file.read()
 request_json = json.loads(json_input)
 
 response = requests.post(url, request_json)
-print(response.content)
+# print(response.content)
 assert response.status_code == 201
-
