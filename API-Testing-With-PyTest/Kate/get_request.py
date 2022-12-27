@@ -1,9 +1,7 @@
 import requests
+from decouple import config
 
-url = "http://localhost:3000/students"
-
-response = requests.get(url)
+response = requests.get(config('DOMAIN') + "/students")
 
 assert response.status_code == 200
 
-print(response.content)

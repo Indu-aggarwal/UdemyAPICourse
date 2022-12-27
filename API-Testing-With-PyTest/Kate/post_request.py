@@ -1,7 +1,8 @@
 import json
 import requests
+from decouple import config
 
-url = "http://localhost:3000/students"
+url = config('DOMAIN') + "/students"
 
 file = open('./post_data.json', 'r')
 
