@@ -131,3 +131,6 @@ dmypy.json
 .idea
 .idea/inspectionProfiles/Project_Default.xml
 .idea/
+
+bin/
+pyvenv.cfg
