@@ -11,14 +11,15 @@ response = requests.get(url)
 # validate status code
 assert response.status_code == 200
 
-print(response.headers.get('Date'))
-print(response.headers.get('Server'))
+print("Headers are: ", response.headers)
+print("Header - Date: ",response.headers.get('Date'))
+print("Header - Server: ", response.headers.get('Server'))
 
-print(response.cookies)
+print("Cookies are: ", response.cookies)
 
-print(response.encoding)
+print("Encoding response is: ", response.encoding)
 
-print(response.content)
+print("Content response is: ", response.content)
 
 json_response = json.loads(response.text)
 
