@@ -19,14 +19,15 @@ def delete_lastId_student_data(url):
         else:
                 print("Nothing to delete.")
 
-
-delete_lastId_student_data(base_url)
-
 def delete_randomId_student_data(url, studentId):
         endpoint = url + "/" + str(studentId)
         updated_response = requests.delete(endpoint)
         assert updated_response.status_code == 200
 
-dataId = 5
-# delete_randomId_student_data(base_url, dataId)
+dataId = 0
+
+if dataId == 0:
+        delete_lastId_student_data(base_url)
+else:
+        delete_randomId_student_data(base_url, dataId)
 
