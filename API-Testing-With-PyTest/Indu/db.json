@@ -1,13 +1,6 @@
 {
   "students": [
     {
-      "id": 1,
-      "firstName": "Jane",
-      "middleName": "A",
-      "lastName": "Doe",
-      "dateOfBirth": "01-01-1990"
-    },
-    {
       "firstName": "Michael",
       "middleName": "A",
       "lastName": "Bubble",
@@ -29,13 +22,27 @@
       "id": 4
     },
     {
+<<<<<<< HEAD
+      "firstName": "A",
+      "middleName": "B",
+      "lastName": "C",
+=======
       "firstName": "Sarah",
       "middleName": "Jane",
       "lastName": "Bishop",
+>>>>>>> master
       "dateOfBirth": "01-01-2000",
       "id": 5
     },
     {
+<<<<<<< HEAD
+      "firstName": "A_1",
+      "middleName": "B_!",
+      "lastName": "C111",
+      "dateOfBirth": "01-01-2000",
+      "id": 6
+    },
+=======
       "firstName": "Sarah",
       "middleName": "Jane",
       "lastName": "Bishop",
@@ -65,12 +72,16 @@
     }
   ],
   "comments": [
+>>>>>>> master
     {
-      "id": 1,
-      "body": "You are passed",
-      "studentId": 1
+      "firstName": "Boris",
+      "middleName": "Ks",
+      "lastName": "Morisson",
+      "dateOfBirth": "02-05-1978",
+      "id": 7
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
