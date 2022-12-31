@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.mark.Smoke
 @pytest.mark.Sanity
 def test_printing():
