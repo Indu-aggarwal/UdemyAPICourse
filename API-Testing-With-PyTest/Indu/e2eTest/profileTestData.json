@@ -1,0 +1,10 @@
+{
+        "id": 1,
+        "address": {
+                "address_line1": "6, Crossways",
+                "address_line2": "Windsor Road",
+                "city": "London",
+                "postcode": "SL12NE"
+        },
+        "studentId": "1"
+}

@@ -6,6 +6,7 @@ import jsonpath
 
 studentEndpoint = config('DOMAIN') + "/students"
 commentsEndpoint = config('DOMAIN') + "/comments"
+profileEndpoint = config('DOMAIN') + "/profile"
 
 
 # @pytest.fixture(scope="module")
@@ -30,3 +31,10 @@ def test_addNewStudent():
     response = requests.post(commentsEndpoint,request_json)
     print(response.text)
 
+
+    profileInput = open('./profileTestData.json', 'r')
+    request_json = json.loads(profileInput.read())
+    request_json['id'] = int(studentId[0])
+    request_json['studentId'] = str(studentId[0])
+    response = requests.post(profileEndpoint,request_json)
+    print(response.text)
