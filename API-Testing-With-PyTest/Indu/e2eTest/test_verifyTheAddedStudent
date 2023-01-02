@@ -1,0 +1,15 @@
+import requests
+from decouple import config
+import json
+
+endpoint = config('DOMAIN') + "/students"
+
+@pytest.fixture(scope="module")
+def fixture_code(request_json):
+    studentTestDataFile = open('./studentTestData', 'r')
+    request_json = json.loads(studentTestDataFile.read())
+
+def test_addNewStudent(fixture_code,request_json):
+    print(request_json)
+    # requests.post(endpoint,request_json)
+
