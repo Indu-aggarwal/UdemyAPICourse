@@ -25,12 +25,12 @@ def delete_randomId_student_data(url, studentId):
         updated_response = requests.delete(endpoint)
         assert updated_response.status_code == 200
 
-dataId = 0
+indexId = -1
 
-@pytest.mark.skip("This test is skipped and can be run when is needed.")
+@pytest.mark.skipif(indexId <= -1,reason="This test is skipped and can be run when is needed.")
 def test_delete_student_data():
-        if dataId == 0:
+        if indexId == 0:
                 delete_lastId_student_data(base_url)
         else:
-                delete_randomId_student_data(base_url, dataId)
+                delete_randomId_student_data(base_url, indexId)
 
