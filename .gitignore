@@ -134,3 +134,16 @@ dmypy.json
 
 bin/
 pyvenv.cfg
+
+# Allure
+**/.allure
+**/allure-results
+
+**/.allure**
+**/allure-results/**
+**/allure-results/**
+/patient-registry-service/allure-results/
+
+*.json
+!spec/*.json
+
