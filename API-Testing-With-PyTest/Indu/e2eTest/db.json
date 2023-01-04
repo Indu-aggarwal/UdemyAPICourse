@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "firstName": "Test100",
+      "middleName": "student100",
+      "lastName": "My hundredth successfull Test",
+      "dateOfBirth": "01-01-2023",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "You are my first student",
+      "studentId": "1"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "address": [
+        "address_line1",
+        "address_line2",
+        "city",
+        "postcode"
+      ],
+      "studentId": "1"
+    }
+  ],
+  "studentDetails": [
+    {
+      "id": "4",
+      "firstName": "",
+      "middleName": "",
+      "lastName": "",
+      "dateOfBirth": "",
+      "comments": "",
+      "profile": ""
+    }
+  ]
+}

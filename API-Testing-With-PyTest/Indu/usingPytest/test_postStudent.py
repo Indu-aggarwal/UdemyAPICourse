@@ -3,7 +3,7 @@
 # -s to print the output on the console
 # ********************************************************************************
 # -k to run the specific test (-k <name_of_the_test> <folder_name_option>)
-# -k to run the specific tests that contains the same test string (pytest -v -s -k test_002)
+# -k to run the specific tests that contains the matching test string (pytest -v -s -k test_002)
 
 def test_001_post_studentId():
     print("This is my first test case")
