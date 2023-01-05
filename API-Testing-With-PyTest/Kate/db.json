@@ -1,273 +1,74 @@
 {
   "students": [
     {
-      "id": 1,
-      "firstName": "Jane",
-      "middleName": "A",
-      "lastName": "Doe",
-      "dateOfBirth": "01-01-1990"
+      "title": "Mr.",
+      "firstName": "Daniel",
+      "middleName": "MD",
+      "lastName": "Webb",
+      "dateOfBirth": "1934-06-20",
+      "id": 1
     },
     {
-      "firstName": "Lania",
-      "middleName": "Y",
-      "lastName": "Davis",
-      "dateOfBirth": "07-15-1998",
+      "title": "Mrs.",
+      "firstName": "Sandra",
+      "middleName": "III",
+      "lastName": "Smith",
+      "dateOfBirth": "1939-06-15",
       "id": 2
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 3
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 4
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 5
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 6
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 7
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 8
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 9
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 10
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 11
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 12
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 13
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 14
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 15
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 16
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 17
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 18
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 19
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 20
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 21
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 22
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 23
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 24
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 25
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 26
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 27
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 28
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 29
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 30
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 31
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 32
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 33
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 34
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 35
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 36
-    },
-    {
-      "firstName": "Boris",
-      "middleName": "Ks",
-      "lastName": "Morisson",
-      "dateOfBirth": "02-05-1978",
-      "id": 37
     }
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "1",
+      "favoriteWords": [
+        "trip",
+        "position"
+      ],
+      "yearExp": "17",
+      "lastUsed": "1975",
+      "stId": "1"
+    },
+    {
+      "id": "2",
+      "favoriteWords": [
+        "much",
+        "clear"
+      ],
+      "yearExp": "4",
+      "lastUsed": "1995",
+      "stId": "2"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "email": "reevesmarcia@example.org",
+      "address": [
+        "Mali",
+        "HT",
+        "East Gregory",
+        "004",
+        "20139",
+        "691 Cordova Ramp"
+      ],
+      "PhoneNumber": "1008647725522",
+      "graduated": "True",
+      "stId": "1"
+    },
+    {
+      "id": "2",
+      "email": "carlos76@example.com",
+      "address": [
+        "Puerto Rico",
+        "AR",
+        "Matthewbury",
+        "4945",
+        "15615",
+        "82924 Brown Trafficway"
+      ],
+      "PhoneNumber": "3494207766416",
+      "graduated": "True",
+      "stId": "2"
+    }
+  ]
 }
