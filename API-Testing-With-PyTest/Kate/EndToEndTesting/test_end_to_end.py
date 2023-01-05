@@ -38,7 +38,7 @@ def test_add_new_student (fixture_code):
 def test_add_new_comments(fixture_code):
         requests_json = json.loads(comments_data.read())
         requests_json['id'] = int(student_id[0])
-        requests_json['st_id'] = student_id[0]
+        requests_json['stId'] = student_id[0]
         requests_json['favoriteWords'] = fake.word(), fake.word()
         requests_json['yearExp'] = fake.random_int(0, 20)
         requests_json['lastUsed'] = fake.year()
@@ -49,7 +49,7 @@ def test_add_new_comments(fixture_code):
 def test_add_new_profile(fixture_code):
         requests_json = json.loads(profile_data.read())
         requests_json['id'] = int(student_id[0])
-        requests_json['st_id'] = student_id[0]
+        requests_json['stId'] = student_id[0]
         requests_json['email'] = fake.email()
         requests_json['address'] = fake.country(), fake.country_code(), fake.city(), fake.building_number(),fake.postcode(),fake.street_address()
         requests_json['PhoneNumber'] = fake.msisdn()

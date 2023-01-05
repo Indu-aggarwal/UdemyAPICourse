@@ -1,140 +1,74 @@
 {
   "students": [
     {
-      "title": "Dr.",
-      "firstName": "Katelyn",
+      "title": "Mr.",
+      "firstName": "Daniel",
       "middleName": "MD",
-      "lastName": "Foster",
-      "dateOfBirth": "1982-11-30",
+      "lastName": "Webb",
+      "dateOfBirth": "1934-06-20",
       "id": 1
     },
     {
-      "title": "Dr.",
-      "firstName": "Janet",
-      "middleName": "DDS",
-      "lastName": "Lopez",
-      "dateOfBirth": "1979-09-28",
-      "id": 2
-    },
-    {
       "title": "Mrs.",
-      "firstName": "Sharon",
-      "middleName": "MD",
-      "lastName": "Adams",
-      "dateOfBirth": "1975-02-17",
-      "id": 3
-    },
-    {
-      "title": "Mr.",
-      "firstName": "Kelly",
-      "middleName": "MD",
-      "lastName": "Spencer",
-      "dateOfBirth": "1967-09-25",
-      "id": 4
+      "firstName": "Sandra",
+      "middleName": "III",
+      "lastName": "Smith",
+      "dateOfBirth": "1939-06-15",
+      "id": 2
     }
   ],
   "comments": [
     {
       "id": "1",
       "favoriteWords": [
-        "movie",
-        "represent"
+        "trip",
+        "position"
       ],
-      "yearExp": "9",
-      "lastUsed": "2001",
-      "st_id": "1"
+      "yearExp": "17",
+      "lastUsed": "1975",
+      "stId": "1"
     },
     {
       "id": "2",
       "favoriteWords": [
-        "once",
-        "catch"
+        "much",
+        "clear"
       ],
-      "yearExp": "20",
-      "lastUsed": "1984",
-      "st_id": "2"
-    },
-    {
-      "id": "3",
-      "favoriteWords": [
-        "turn",
-        "sense"
-      ],
-      "yearExp": "11",
-      "lastUsed": "2002",
-      "st_id": "3"
-    },
-    {
-      "id": "4",
-      "favoriteWords": [
-        "south",
-        "lose"
-      ],
-      "yearExp": "16",
-      "lastUsed": "1972",
-      "st_id": "4"
+      "yearExp": "4",
+      "lastUsed": "1995",
+      "stId": "2"
     }
   ],
   "profile": [
     {
       "id": "1",
-      "email": "wnorris@example.com",
+      "email": "reevesmarcia@example.org",
       "address": [
-        "Christmas Island",
-        "JO",
-        "West Jennifer",
-        "7707",
-        "53475",
-        "238 Washington Unions Suite 123"
+        "Mali",
+        "HT",
+        "East Gregory",
+        "004",
+        "20139",
+        "691 Cordova Ramp"
       ],
-      "PhoneNumber": "9174491534373",
-      "graduated": "False",
-      "st_id": "1"
+      "PhoneNumber": "1008647725522",
+      "graduated": "True",
+      "stId": "1"
     },
     {
       "id": "2",
-      "email": "zacharytyler@example.net",
+      "email": "carlos76@example.com",
       "address": [
-        "Vietnam",
-        "LB",
-        "Mariohaven",
-        "0440",
-        "36407",
-        "4067 David Trail Suite 327"
+        "Puerto Rico",
+        "AR",
+        "Matthewbury",
+        "4945",
+        "15615",
+        "82924 Brown Trafficway"
       ],
-      "PhoneNumber": "3329854534226",
-      "graduated": "False",
-      "st_id": "2"
-    },
-    {
-      "id": "3",
-      "email": "chelseawang@example.com",
-      "address": [
-        "Guernsey",
-        "PK",
-        "East Robinland",
-        "18239",
-        "59307",
-        "840 Reid Extension Apt. 571"
-      ],
-      "PhoneNumber": "1758906410815",
-      "graduated": "False",
-      "st_id": "3"
-    },
-    {
-      "id": "4",
-      "email": "rleblanc@example.com",
-      "address": [
-        "Western Sahara",
-        "EG",
-        "Sandrashire",
-        "028",
-        "80522",
-        "3756 Zachary Ports"
-      ],
-      "PhoneNumber": "1440762752460",
+      "PhoneNumber": "3494207766416",
       "graduated": "True",
-      "st_id": "4"
+      "stId": "2"
     }
   ]
 }
