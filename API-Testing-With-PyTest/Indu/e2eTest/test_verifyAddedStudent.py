@@ -19,7 +19,7 @@ def test_addNewStudent():
     studentInput = open('./studentTestData.json', 'r')
     request_json = json.loads(studentInput.read())
     response = requests.post(studentEndpoint,request_json)
-    print (response.text)
+    # print (response.text)
     studentId = jsonpath.jsonpath(response.json(),'id')
     # print(studentId[0])
 
@@ -29,7 +29,7 @@ def test_addNewStudent():
     request_json['id'] = int(studentId[0])
     request_json['studentId'] = str(studentId[0])
     response = requests.post(commentsEndpoint,request_json)
-    print(response.text)
+    # print(response.text)
 
 
     profileInput = open('./profileTestData.json', 'r')

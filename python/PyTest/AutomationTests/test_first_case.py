@@ -5,6 +5,7 @@ import pytest
 # PyTest function should start with test key words
 
 @pytest.mark.Smoke
+# @pytest
 def test_one_just_printing():
     print("Test on first test in PyTest")
     print("This is  a second line of the test")
