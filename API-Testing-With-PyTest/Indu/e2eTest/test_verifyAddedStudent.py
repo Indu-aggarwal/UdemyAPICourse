@@ -34,6 +34,7 @@ def test_addNewStudent():
 
     profileInput = open('./profileTestData.json', 'r')
     request_json = json.loads(profileInput.read())
+    print(request_json)
     request_json['id'] = int(studentId[0])
     request_json['studentId'] = str(studentId[0])
     response = requests.post(profileEndpoint,request_json)
